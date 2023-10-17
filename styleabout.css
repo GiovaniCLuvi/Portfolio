@@ -1,0 +1,127 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bas:hover {
+  background-image: linear-gradient(to top, rgb(46, 46, 46), black, rgb(0, 0, 0));
+}
+
+#head {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+nav > a {
+    color: white;
+    padding: 15px 15px 20px 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2.6em;
+}
+
+p {
+  width: auto;
+  margin-top: 50px;
+  font-size: 1.6em;
+}
+@media screen and (min-width: 1426px) {
+  p {margin-bottom: 40px;}
+}
+ #princ > img {
+  margin: 70px 0px 0px 0px;
+  display: inline-block;
+  height: 550px;
+  width: 380px;
+}
+#fatos {
+  background-color: rgba(104, 57, 13, 0.185);
+  height: 50vw;
+  width: 100vw;
+  padding: 50px;
+  list-style-type: none;
+  margin-top: 100px;
+}
+#fatos > li {
+  padding: 0px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 50px;
+  height: 100px;
+  width: 600px;
+  background-color: #3f1e0442;
+}
+.pics{
+  display: inline-block;
+  height: 167px;
+  width: 250px;
+  border-radius: 15px;
+  border: 3px solid rgb(236, 236, 236);
+  box-shadow: 5px 5px 15px #041a1771;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.pics:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu { display: block; }
+  .pics {height: 234px; width: 350px;}
+}
+  @media screen and (max-width: 750px) {
+    .menu { display: grid; justify-content: center; align-items: center;}
+    .pics {height: 234px; width: 350px;}
+}
+@media screen and (min-width: 2000px) {
+  .pics {height: 140px; width: 210px;}
+  #sobrepics {display: inline-flex;margin-left: 13%;}
+}
+
+
+
+#princ {
+  display: block; 
+  text-align: center;
+}
+#princ1 {
+  display: inline-block;
+  width: 60%;
+  list-style: none;
+  background-color: white;
+}
+
+#sobre {
+    margin: 50px 20px 10px 80px;
+}
+
+#fatos {
+  background-image: url('imagens/euu.jpg');
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1250px) {
+  
+}
